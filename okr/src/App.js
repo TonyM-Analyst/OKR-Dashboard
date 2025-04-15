@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import OKRDashboard from './components/DashBoard';
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -19,6 +21,10 @@ function App() {
         </a>
       </header>
     </div>
+    <div className='dashboard'>
+    <OKRDashboard/>
+    </div>
+  </div>
   );
 }
 
